@@ -43,12 +43,13 @@ public class ClickItem : MonoBehaviour
             {
                 //Ok, found the item we clicked on.
                 //Now make sure it has the IClick interface - that way we can call the Click method
-                TryGetComponent<IClick>(out IClick clickComponent);
+                collider.gameObject.TryGetComponent<IClick>(out IClick clickComponent);
+                clickComponent?.Click();
 
-                if(clickComponent != null)
-                {
-                    clickComponent.Click();
-                }
+                //if(clickComponent != null)
+                //{
+                //    clickComponent.Click();
+                //}
 
             }
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+//TODO - Implement the start composting and speed up composting popups
 //This class is for items  you can search and then will generate new items
 //It generates a CollectableResourceItemScript - between 4-6 of them
 public class HarvestItemScript : ItemScript, IClick
@@ -81,6 +82,7 @@ public class HarvestItemScript : ItemScript, IClick
             }
             else
             {
+                Debug.Log("HIS - We should be composting");
                 //Check if the popup is already up
 
                 //If it's already up, give the offer to speed up

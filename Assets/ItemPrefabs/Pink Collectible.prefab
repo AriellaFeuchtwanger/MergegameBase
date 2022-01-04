@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4666105544559290074}
   m_Layer: 0
   m_Name: Pink Collectible
-  m_TagString: Untagged
+  m_TagString: ItemsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
