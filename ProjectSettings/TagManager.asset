@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tile
   - ItemsObject
+  - Button
   layers:
   - Default
   - TransparentFX
@@ -54,4 +55,7 @@ TagManager:
     locked: 0
   - name: Notifications
     uniqueID: 4125503145
+    locked: 0
+  - name: Foreground
+    uniqueID: 1228187801
     locked: 0

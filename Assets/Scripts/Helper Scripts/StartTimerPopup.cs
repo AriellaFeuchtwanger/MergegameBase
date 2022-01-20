@@ -17,15 +17,4 @@ public class StartTimerPopup : Popup
     {
         
     }
-
-    public void OnButtonClick()
-    {
-        //When the button is clicked...
-        //Hide the popup
-        this.HidePopup();
-        //Show the TimerPopup
-        TimerPopup tPop = this.gameObject.GetComponentInParent<TimerPopup>();
-        //tPop.ShowPopup();
-        tPop.StartTimer();
-    }
 }
